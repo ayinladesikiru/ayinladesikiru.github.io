@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayinlade Sikiru Adewunmi Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/67df346ef4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/asa-tech-logo2.png" class="logo" alt="Asa-tech logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sikiru</span><br>Ayinlade from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+<!--------About me------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/asa04.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I love programming because it's a career that keeps challenging me to be better. 
+                        I am a fan of optimization, I'm very concerned about speed and efficiency while making the code as simple as possible, 
+                        I love simple code that do big things. yay! and I love Test Driven Development because it helps make sure my codes are doing exactly what its suppose to do.
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Making your online presence worth a while</li>
+                                <li><span>Software Engineering</span><br>Developing solution tailored towards users </li>
+                                <li><span>WebApp Development</span><br>Build Android & IOs Apps</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Software Engineer (Backend) at CyberMe Studio Riyadh</li>
+                                <li><span>2018 - 2021</span><br>Software Developer at Data Palace IT Solutions</li>
+                                <li><span>2015 - 2017</span><br>Computer Engineer at Canaan Computers Ltd</li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Software Engineering at Semicolon Africa</li>
+                                <li><span>2020</span><br>Psychology at University of Ibadan</li>
+                                <li><span>2015</span><br>Computer Engineer at Canaan Computer College</li>
+                            </ul>
+                        </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------services------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                 <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem eius incidunt beatae quis voluptatum quisquam, ad id rem, aliquid nostrum perferendis neque omnis, ratione porro voluptas ullam. Porro, quaerat.</p>
+                    <a href="#">Learn more</a>
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-app-store-ios"></i>    
+                    <h2>Android & IOs Apps Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem eius incidunt beatae quis voluptatum quisquam, ad id rem, aliquid nostrum perferendis neque omnis, ratione porro voluptas ullam. Porro, quaerat.</p>
+                    <a href="#">Learn more</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-arrows-spin"></i>
+                    <h2>Software Engineering</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem eius incidunt beatae quis voluptatum quisquam, ad id rem, aliquid nostrum perferendis neque omnis, ratione porro voluptas ullam. Porro, quaerat.</p>
+                    <a href="#">Learn more</a>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------------------------------Porfolio----------------------------------------------------->
+ 
+   <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work3.jpg" alt="tavel website job preview">
+                <div class="layer">
+                    <h3>Ecommerce Website</h3>
+                    <p>Online e-commerce website for buying and selling</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work5.jpg" alt="tavel website job preview">
+                <div class="layer">
+                    <h3>E-Bank Mobile App</h3>
+                    <p>Bank AppMobile App for handy easy transaction</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work1.jpg" alt="tavel website job preview">
+                <div class="layer">
+                    <h3>Travel Agency Website</h3>
+                    <p>Travel and Tour Website where customer can view travel destination and budget plan, Offers and more...</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+     </div>
+   </div>
+
+   <!---------------------------Contact----------------------------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ayinladesikiru@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+2348086992338</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ayinladesikiru/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/AyinladeSikiru" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/_asaunlimited/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/ayinladesikiru" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/AYINLADE SIKIRU ADEWUNMI CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Yur email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Ayinlade Sikiru. made with <i class="fa-solid fa-heart"></i> by Asa-tech</p>
+    </div>
+   </div>
+   
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link"); 
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+
+    </script> 
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyBGqvGdbHgNOhx1HaUJS2WUkWL0S9LV7Ez1pHg_P5syrWZVSndcckyBMj5ACBITK81Vg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Messsage sent successfully, we will get back to you as soon as possible"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
